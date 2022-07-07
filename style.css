@@ -11,7 +11,7 @@
   box-shadow: 0px 0px 6px pink;
   padding:5em 2em;
   justify-content: center;
-  /* margin-top:5em; */
+  margin-top:5em;
 
 }
 h1{
@@ -44,4 +44,53 @@ h1{
 }
 
 
-
+@media(max-width:500px){
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    width:75%; 
+    /* height:80%; */
+    margin:auto;
+    box-shadow: 0px 0px 8px pink;
+    padding:5em 2em;
+    justify-content: center;
+    margin-top:3em;
+  
+  }
+  h1{
+    color:pink;
+  }
+  
+  #text-area{
+    height:30vh;; 
+    width:95%; 
+    font-size: large;
+    display:block;
+    margin:auto;
+    border:2px solid pink;
+  }
+  #convert-btn{
+    width:95%;
+    margin-top:1rem;
+    background-color:pink; 
+    border-radius:.27em; 
+    border:none;
+    font-size:3.8vh; 
+    padding: .3em ;
+    color:whitesmoke; 
+    cursor:pointer; 
+    /* box-shadow: 0 0 2px black; */
+  
+  }
+  #convert-btn:hover{
+     font-size:4vh;
+  }
+  
+  
+  
+  
+}
