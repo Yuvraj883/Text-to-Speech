@@ -1,0 +1,39 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  width:60%; 
+  margin:auto;
+  box-shadow: 0px 0px 4px pink;
+  padding:2em;
+
+}
+h1{
+  color:pink;
+}
+
+#text-area{
+  height:30vh; 
+  width:60vh; 
+  font-size: large;
+  display:block;
+  margin:auto;
+  border-color:pink;
+}
+#convert-btn{
+  width:60vh;
+  margin-top:1rem;
+  background-color:pink; 
+  border-radius:.27em; 
+  border:none;
+  font-size:x-large; 
+  padding: .3em ;
+  color:whitesmoke; 
+  cursor:pointer; 
+  box-shadow: 0 0 2px black;
+
+}
+
