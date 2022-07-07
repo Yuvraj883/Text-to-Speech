@@ -4,6 +4,7 @@ let textArea = document.querySelector("#text-area");
 const convertBtn = document.querySelector("#convert-btn")
 convertBtn.addEventListener("click", convertTextToSpeech); 
 function convertTextToSpeech(){
+  convertBtn.textContent = "Converting..."
   let speech = new SpeechSynthesisUtterance(); 
   speech.lang = "hi"; 
   speech.rate = 1; 
@@ -11,5 +12,9 @@ function convertTextToSpeech(){
   speech.text = textArea.value; 
   speech.volume = 1; 
   speechSynthesis.speak(speech);
-  console.log(textArea.value); 
+
+  setTimeout(function() {
+    convertBtn.innerText = "Convert Text To Speech";
+  },1000)
+ // console.log(textArea.value); 
 }

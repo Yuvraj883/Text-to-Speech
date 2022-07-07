@@ -5,10 +5,13 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  width:60%; 
+  width:40%; 
+  /* height:80%; */
   margin:auto;
-  box-shadow: 0px 0px 4px pink;
-  padding:2em;
+  box-shadow: 0px 0px 6px pink;
+  padding:5em 2em;
+  justify-content: center;
+  /* margin-top:5em; */
 
 }
 h1{
@@ -16,24 +19,29 @@ h1{
 }
 
 #text-area{
-  height:30vh; 
-  width:60vh; 
+  height:30vh;; 
+  width:95%; 
   font-size: large;
   display:block;
   margin:auto;
-  border-color:pink;
+  border:2px solid pink;
 }
 #convert-btn{
-  width:60vh;
+  width:95%;
   margin-top:1rem;
   background-color:pink; 
   border-radius:.27em; 
   border:none;
-  font-size:x-large; 
+  font-size:3.8vh; 
   padding: .3em ;
   color:whitesmoke; 
   cursor:pointer; 
-  box-shadow: 0 0 2px black;
+  /* box-shadow: 0 0 2px black; */
 
 }
+#convert-btn:hover{
+   font-size:4vh;
+}
+
+
 
