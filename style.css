@@ -17,6 +17,7 @@ body{
   padding:5em 2em;
   justify-content: center;
   margin-top:5em;
+  transition: all 300ms ease;
 
 }
 h1{
@@ -30,11 +31,18 @@ h1{
   display:block;
   margin:auto;
   border:2px solid pink;
+  border-radius: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(130, 130, 130);
+  font-weight: bold;
+  outline: none;
 }
 #convert-btn{
+  outline: none;
   width:95%;
+  transition: all 300ms ease;
   margin-top:1rem;
-  background-color:pink; 
+  background: linear-gradient(to left, pink, rgb(255, 124, 146));
   border-radius:.27em; 
   border:none;
   font-size:3.8vh; 
@@ -45,11 +53,11 @@ h1{
 
 }
 #convert-btn:hover{
-   font-size:4vh;
+   background: linear-gradient(to right, pink, rgb(255, 124, 146));
 }
 
 
-@media(max-width:500px){
+@media(max-width:700px){
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -57,11 +65,11 @@ h1{
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
-    width:75%; 
+    width:85%; 
     /* height:80%; */
     margin:auto;
     box-shadow: 0px 0px 8px pink;
-    padding:5em 2em;
+    padding:2em 1em;
     justify-content: center;
     margin-top:3em;
   
@@ -71,28 +79,29 @@ h1{
   }
   
   #text-area{
-    height:30vh;; 
-    width:95%; 
+    height:50vh; 
+    width:90%; 
     font-size: large;
     display:block;
     margin:auto;
     border:2px solid pink;
   }
   #convert-btn{
-    width:95%;
+    width:90%;
     margin-top:1rem;
     background-color:pink; 
     border-radius:.27em; 
     border:none;
-    font-size:3.8vh; 
-    padding: .3em ;
+    font-size:2.8vh; 
+    /* padding: .3em ; */
     color:whitesmoke; 
     cursor:pointer; 
     /* box-shadow: 0 0 2px black; */
+    transition: all 300ms ease;
   
   }
   #convert-btn:hover{
-     font-size:4vh;
+    /* font-size:2.8vh;  */
   }
   
   
