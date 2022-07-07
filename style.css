@@ -18,10 +18,13 @@ body{
   justify-content: center;
   margin-top:5em;
   transition: all 300ms ease;
+  /* position:fixed; */
 
 }
 h1{
   color:pink;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 #text-area{
@@ -32,7 +35,6 @@ h1{
   margin:auto;
   border:2px solid pink;
   border-radius: 10px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(130, 130, 130);
   font-weight: bold;
   outline: none;
