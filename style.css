@@ -26,6 +26,11 @@ h1{
   display:block;
   margin:auto;
   border:2px solid pink;
+  border-radius: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(130, 130, 130);
+  font-weight: bold;
+  outline: none;
 }
 #convert-btn{
   outline: none;
@@ -55,7 +60,7 @@ h1{
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
-    width:95%; 
+    width:85%; 
     /* height:80%; */
     margin:auto;
     box-shadow: 0px 0px 8px pink;
@@ -69,7 +74,7 @@ h1{
   }
   
   #text-area{
-    height:30vh; 
+    height:50vh; 
     width:90%; 
     font-size: large;
     display:block;
@@ -82,7 +87,7 @@ h1{
     background-color:pink; 
     border-radius:.27em; 
     border:none;
-    font-size:1.8vh; 
+    font-size:2.8vh; 
     /* padding: .3em ; */
     color:whitesmoke; 
     cursor:pointer; 
