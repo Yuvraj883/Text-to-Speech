@@ -8,7 +8,7 @@ function convertTextToSpeech(){
   let speech = new SpeechSynthesisUtterance(); 
   speech.lang = "enUS"; 
   speech.rate = .9; 
-  speech.pitch =.5; 
+  speech.pitch =.3; 
   speech.text = textArea.value; 
   speech.volume = 1; 
   speech.voice= 
