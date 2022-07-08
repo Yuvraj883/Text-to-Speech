@@ -13,7 +13,7 @@ function convertTextToSpeech(){
   speech.volume = 1; 
   speech.voice= 
   speechSynthesis.speak(speech);
-  
+  console.log("Button Clicked");
 
   setTimeout(function() {
     convertBtn.innerText = "Convert Text To Speech";
