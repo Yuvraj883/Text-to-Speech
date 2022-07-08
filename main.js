@@ -1,4 +1,4 @@
-import 'style.css'
+import '/style.css'
 
 let textArea = document.querySelector("#text-area");
 const convertBtn = document.querySelector("#convert-btn")
